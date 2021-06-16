@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HomeAccounting.BusinessLogic.EF.Account">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Entity">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Property">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Property.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PropertyPriceChange" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.PropertyPriceChange">
+    <Position X="1.75" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyPriceChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Cash">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Cash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Deposit">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAQAACAAAAAA=</HashCode>
+      <FileName>Deposit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bank" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Bank">
+    <Position X="10.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeAccounting.BusinessLogic.EF.Operation">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAACAAAAAAEA=</HashCode>
+      <FileName>Operation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Account" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="HomeAccounting.BusinessLogic.EF.PropertyType">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>PropertyType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HomeAccounting.BusinessLogic.EF.PercentType">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>PercentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
